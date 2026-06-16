@@ -1,0 +1,1074 @@
+{
+  "55ce00a8-7eb6-4127-9209-763fc6dc24f9": [
+    {
+      "name": "Amine EL FASSI",
+      "email": "tallouksaid2001@gmail.com",
+      "skills": [
+        "Python",
+        "R",
+        "SQL",
+        "Machine Learning",
+        "Deep Learning",
+        "Pandas",
+        "NumPy",
+        "Scikit-Learn",
+        "PostgreSQL",
+        "MongoDB",
+        "Git",
+        "Docker",
+        "Tableau",
+        "PowerBI"
+      ],
+      "experience": {
+        "years": 2,
+        "domains": [
+          "Data Science",
+          "Ingénieur Data"
+        ]
+      },
+      "education": [
+        {
+          "degree": "Diplôme d'Ingénieur",
+          "field": "Science des Données",
+          "school": "INSA Lyon"
+        }
+      ],
+      "match": {
+        "matched": [
+          "PostgreSQL",
+          "MongoDB",
+          "Docker",
+          "Git",
+          "Python"
+        ],
+        "missing": [
+          "React",
+          "Node.js",
+          "JavaScript",
+          "REST API",
+          "java",
+          "Angular"
+        ],
+        "bonus": [
+          "R",
+          "SQL",
+          "Machine Learning",
+          "Deep Learning",
+          "Pandas",
+          "NumPy",
+          "Scikit-Learn",
+          "Tableau",
+          "PowerBI"
+        ],
+        "rate": 45.45454545454545
+      },
+      "match_rate": 45.5,
+      "improvement_plan": {
+        "summary": "Le candidat présente un écart important dans les compétences nécessaires pour le poste de Full Stack Developer, notamment en React, Node.js et JavaScript. Il est essentiel de se concentrer sur ces compétences pour améliorer son score de compatibilité. Le candidat a une solide expérience en Python et en data science, mais doit développer ses compétences en développement web.",
+        "priority_skills": [
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "learning_path": [
+          {
+            "skill": "JavaScript",
+            "why": "Le JavaScript est essentiel pour le développement web et est utilisé dans la plupart des applications web modernes.",
+            "resources": [
+              {
+                "type": "cours",
+                "name": "JavaScript pour les débutants",
+                "platform": "OpenClassrooms",
+                "duration": "4 semaines",
+                "youtube_search": "JavaScript pour les débutants 2024"
+              },
+              {
+                "type": "livre",
+                "name": "JavaScript : La référence",
+                "platform": "Amazon",
+                "duration": "N/A",
+                "youtube_search": ""
+              }
+            ],
+            "project": "Créer un jeu de tic-tac-toe en JavaScript pour pratiquer les concepts de base."
+          },
+          {
+            "skill": "React",
+            "why": "React est une bibliothèque JavaScript très populaire pour la création d'interfaces utilisateur.",
+            "resources": [
+              {
+                "type": "cours",
+                "name": "React pour les débutants",
+                "platform": "freeCodeCamp",
+                "duration": "4 semaines",
+                "youtube_search": "React pour les débutants 2024"
+              },
+              {
+                "type": "projet",
+                "name": "To-Do List en React",
+                "platform": "YouTube",
+                "duration": "2 heures",
+                "youtube_search": "To-Do List en React 2024"
+              }
+            ],
+            "project": "Créer une application de liste de tâches en React pour pratiquer les composants et les états."
+          },
+          {
+            "skill": "Node.js",
+            "why": "Node.js est un environnement d'exécution JavaScript pour les applications serveur.",
+            "resources": [
+              {
+                "type": "cours",
+                "name": "Node.js pour les débutants",
+                "platform": "Udemy",
+                "duration": "6 semaines",
+                "youtube_search": "Node.js pour les débutants 2024"
+              },
+              {
+                "type": "livre",
+                "name": "Node.js : La référence",
+                "platform": "Amazon",
+                "duration": "N/A",
+                "youtube_search": ""
+              }
+            ],
+            "project": "Créer un serveur de chat en Node.js pour pratiquer les requêtes et les réponses HTTP."
+          },
+          {
+            "skill": "REST API",
+            "why": "Les REST API sont essentielles pour les applications web modernes et permettent de communiquer avec les serveurs de manière standardisée.",
+            "resources": [
+              {
+                "type": "cours",
+                "name": "REST API pour les débutants",
+                "platform": "Coursera",
+                "duration": "4 semaines",
+                "youtube_search": "REST API pour les débutants 2024"
+              },
+              {
+                "type": "projet",
+                "name": "Créer une API REST pour un blog",
+                "platform": "YouTube",
+                "duration": "3 heures",
+                "youtube_search": "Créer une API REST pour un blog 2024"
+              }
+            ],
+            "project": "Créer une API REST pour un système de gestion de produits pour pratiquer les opérations CRUD."
+          }
+        ],
+        "certifications": [
+          {
+            "name": "Certification Node.js",
+            "platform": "Udemy",
+            "relevance": "Cette certification permet de valider les compétences en Node.js et est très pertinente pour le poste de Full Stack Developer."
+          },
+          {
+            "name": "Certification React",
+            "platform": "freeCodeCamp",
+            "relevance": "Cette certification permet de valider les compétences en React et est très pertinente pour le poste de Full Stack Developer."
+          }
+        ],
+        "soft_skills": [
+          "Travail en équipe",
+          "Communication efficace",
+          "Résolution de problèmes"
+        ],
+        "timeline": "6 mois",
+        "encouragement": "N'abandonnez pas ! Vous avez déjà une solide expérience en Python et en data science. Avec de la détermination et du travail acharné, vous pouvez acquérir les compétences nécessaires pour devenir un Full Stack Developer."
+      }
+    },
+    {
+      "name": "Anis MERZOUK",
+      "email": "tallouksaid2001@gmail.com",
+      "skills": [
+        "JavaScript",
+        "React",
+        "Redux",
+        "HTML5",
+        "CSS3",
+        "Sass",
+        "Tailwind CSS",
+        "Git",
+        "Node.js",
+        "npm",
+        "yarn",
+        "Webpack",
+        "Vite",
+        "Figma",
+        "Python",
+        "SQL"
+      ],
+      "experience": {
+        "years": 2,
+        "domains": [
+          "Frontend Development",
+          "UI Development"
+        ]
+      },
+      "education": [
+        {
+          "degree": "Bachelor’s Degree",
+          "field": "Computer Science",
+          "school": "Cadi Ayyad University"
+        }
+      ],
+      "match": {
+        "matched": [
+          "React",
+          "Node.js",
+          "JavaScript",
+          "Git",
+          "Python"
+        ],
+        "missing": [
+          "PostgreSQL",
+          "MongoDB",
+          "Docker",
+          "REST API",
+          "java",
+          "Angular"
+        ],
+        "bonus": [
+          "Redux",
+          "HTML5",
+          "CSS3",
+          "Sass",
+          "Tailwind CSS",
+          "npm",
+          "yarn",
+          "Webpack",
+          "Vite",
+          "Figma",
+          "SQL"
+        ],
+        "rate": 45.45454545454545
+      },
+      "match_rate": 45.5,
+      "improvement_plan": {
+        "summary": "Le candidat présente un gap important dans les compétences relatives aux bases de données et aux conteneurs, avec des manques notables en PostgreSQL, MongoDB et Docker. Pour atteindre le poste de Full Stack Developer, il est essentiel de combler ces lacunes. Le candidat doit également améliorer ses compétences en REST API et en java ou Angular pour être pleinement opérationnel.",
+        "priority_skills": [
+          "PostgreSQL",
+          "MongoDB",
+          "Docker",
+          "REST API"
+        ],
+        "learning_path": [
+          {
+            "skill": "PostgreSQL",
+            "why": "La maîtrise de PostgreSQL est cruciale pour la gestion des bases de données relationnelles dans les applications Full Stack.",
+            "resources": [
+              {
+                "type": "cours",
+                "name": "PostgreSQL pour les débutants",
+                "platform": "OpenClassrooms",
+                "duration": "4 heures",
+                "youtube_search": "PostgreSQL tutorial francais debutant 2024"
+              },
+              {
+                "type": "livre",
+                "name": "PostgreSQL - La référence",
+                "platform": "Amazon",
+                "duration": "N/A",
+                "youtube_search": ""
+              }
+            ],
+            "project": "Créer une application de gestion de stock avec PostgreSQL et Node.js"
+          },
+          {
+            "skill": "MongoDB",
+            "why": "MongoDB est une base de données NoSQL très utilisée dans les applications modernes, et sa maîtrise est essentielle pour un Full Stack Developer.",
+            "resources": [
+              {
+                "type": "cours",
+                "name": "MongoDB pour les débutants",
+                "platform": "freeCodeCamp",
+                "duration": "3 heures",
+                "youtube_search": "MongoDB tutorial francais debutant 2024"
+              },
+              {
+                "type": "certification",
+                "name": "MongoDB Developer",
+                "platform": "MongoDB University",
+                "duration": "N/A",
+                "youtube_search": ""
+              }
+            ],
+            "project": "Développer une application de blog avec MongoDB, Express et React"
+          },
+          {
+            "skill": "Docker",
+            "why": "Docker est un outil de conteneurisation indispensable pour la mise en production d'applications web modernes.",
+            "resources": [
+              {
+                "type": "cours",
+                "name": "Docker pour les débutants",
+                "platform": "Udemy",
+                "duration": "5 heures",
+                "youtube_search": "Docker tutorial francais debutant 2024"
+              },
+              {
+                "type": "projet",
+                "name": "Dockerizing une application Node.js",
+                "platform": "GitHub",
+                "duration": "N/A",
+                "youtube_search": ""
+              }
+            ],
+            "project": "Containeriser une application Full Stack avec Docker et Docker Compose"
+          },
+          {
+            "skill": "REST API",
+            "why": "Les API REST sont fondamentales pour les échanges de données entre les applications web et les serveurs.",
+            "resources": [
+              {
+                "type": "cours",
+                "name": "REST API pour les débutants",
+                "platform": "Coursera",
+                "duration": "4 heures",
+                "youtube_search": "REST API tutorial francais debutant 2024"
+              },
+              {
+                "type": "livre",
+                "name": "RESTful Web APIs",
+                "platform": "Amazon",
+                "duration": "N/A",
+                "youtube_search": ""
+              }
+            ],
+            "project": "Créer une API REST pour gérer des utilisateurs avec Node.js et Express"
+          }
+        ],
+        "certifications": [
+          {
+            "name": "Certified Associate in Python Programming",
+            "platform": "Python Institute",
+            "relevance": "Cette certification démontre les compétences en Python, qui sont utiles pour les tâches de développement backend et de data science."
+          }
+        ],
+        "soft_skills": [
+          "Communication",
+          "Travail d'équipe",
+          "Résolution de problèmes"
+        ],
+        "timeline": "6 mois",
+        "encouragement": "N'abandonnez pas ! Avec de la détermination et un plan d'apprentissage structuré, vous pouvez acquérir les compétences nécessaires pour devenir un Full Stack Developer accompli."
+      }
+    },
+    {
+      "name": "Karim BENALIA",
+      "email": "tallouksaid2001@gmail.com",
+      "skills": [
+        "JavaScript",
+        "Python",
+        "React",
+        "Node.js",
+        "HTML5",
+        "CSS3",
+        "TailwindCSS",
+        "SQL",
+        "PostgreSQL",
+        "MySQL",
+        "Git",
+        "Docker",
+        "AWS",
+        "FastAPI",
+        "ES6+"
+      ],
+      "experience": {
+        "years": 2,
+        "domains": [
+          "Développement Full Stack",
+          "Environnement agile",
+          "Web",
+          "Backend",
+          "Frontend"
+        ]
+      },
+      "education": [
+        {
+          "degree": "Master",
+          "field": "Informatique",
+          "school": "Université Paris-Cité"
+        }
+      ],
+      "match": {
+        "matched": [
+          "React",
+          "Node.js",
+          "JavaScript",
+          "PostgreSQL",
+          "Docker",
+          "Git",
+          "Python"
+        ],
+        "missing": [
+          "MongoDB",
+          "REST API",
+          "java",
+          "Angular"
+        ],
+        "bonus": [
+          "HTML5",
+          "CSS3",
+          "TailwindCSS",
+          "SQL",
+          "MySQL",
+          "AWS",
+          "FastAPI",
+          "ES6+"
+        ],
+        "rate": 63.63636363636363
+      },
+      "match_rate": 63.6
+    },
+    {
+      "name": "Omar TAZI",
+      "email": "tallouksaid2001@gmail.com",
+      "skills": [
+        "Flutter",
+        "JavaScript",
+        "React Native",
+        "Node.js",
+        "SQL",
+        "Python",
+        "Git",
+        "Docker",
+        "Firebase",
+        "Azure",
+        "Kotlin",
+        "Java",
+        "Swift",
+        "RESTful APIs"
+      ],
+      "experience": {
+        "years": 3,
+        "domains": [
+          "Mobile Application Development",
+          "Cross-platform mobile development",
+          "Backend services"
+        ]
+      },
+      "education": [
+        {
+          "degree": "Bachelor’s Degree",
+          "field": "Software Engineering",
+          "school": "UM6P"
+        }
+      ],
+      "match": {
+        "matched": [
+          "Node.js",
+          "JavaScript",
+          "Docker",
+          "Git",
+          "Python",
+          "java"
+        ],
+        "missing": [
+          "React",
+          "PostgreSQL",
+          "MongoDB",
+          "REST API",
+          "Angular"
+        ],
+        "bonus": [
+          "Flutter",
+          "React Native",
+          "SQL",
+          "Firebase",
+          "Azure",
+          "Kotlin",
+          "Swift",
+          "RESTful APIs"
+        ],
+        "rate": 54.54545454545454
+      },
+      "match_rate": 54.5,
+      "improvement_plan": {
+        "summary": "Le candidat présente un écart de compétences dans les technologies Full Stack, notamment en React, PostgreSQL et MongoDB, qui sont essentielles pour le poste de Full Stack Developer. Avec 3 ans d'expérience, le candidat a une bonne base en JavaScript, Node.js et Git, mais doit se concentrer sur les compétences manquantes pour atteindre le niveau requis. Un plan d'amélioration ciblé sur ces compétences clés permettra au candidat de combler ces lacunes.",
+        "priority_skills": [
+          "React",
+          "PostgreSQL",
+          "MongoDB",
+          "Angular"
+        ],
+        "learning_path": [
+          {
+            "skill": "React",
+            "why": "React est une bibliothèque JavaScript essentielle pour la création d'interfaces utilisateur interactives et réactives dans les applications Full Stack.",
+            "resources": [
+              {
+                "type": "cours",
+                "name": "React : La formation ultime",
+                "platform": "Udemy",
+                "duration": "20 heures",
+                "youtube_search": "React tutorial francais debutant 2024"
+              },
+              {
+                "type": "livre",
+                "name": "React : Le guide complet",
+                "platform": "Amazon",
+                "duration": "N/A",
+                "youtube_search": ""
+              }
+            ],
+            "project": "Créer une application de liste de tâches en utilisant React, Node.js et MongoDB pour gérer les données."
+          },
+          {
+            "skill": "PostgreSQL",
+            "why": "PostgreSQL est un système de gestion de base de données relationnelles puissant et flexible, largement utilisé dans les applications Full Stack.",
+            "resources": [
+              {
+                "type": "cours",
+                "name": "PostgreSQL : La formation complète",
+                "platform": "OpenClassrooms",
+                "duration": "15 heures",
+                "youtube_search": "PostgreSQL tutorial francais debutant 2024"
+              },
+              {
+                "type": "projet",
+                "name": "Créer une base de données pour une application de gestion de stocks",
+                "platform": "freeCodeCamp",
+                "duration": "10 heures",
+                "youtube_search": ""
+              }
+            ],
+            "project": "Concevoir et implémenter une base de données pour une application de gestion de ventes en utilisant PostgreSQL."
+          },
+          {
+            "skill": "MongoDB",
+            "why": "MongoDB est une base de données NoSQL flexible et scalable, idéale pour les applications Full Stack qui nécessitent une grande flexibilité dans la gestion des données.",
+            "resources": [
+              {
+                "type": "cours",
+                "name": "MongoDB : La formation ultime",
+                "platform": "Coursera",
+                "duration": "20 heures",
+                "youtube_search": "MongoDB tutorial francais debutant 2024"
+              },
+              {
+                "type": "livre",
+                "name": "MongoDB : Le guide complet",
+                "platform": "Amazon",
+                "duration": "N/A",
+                "youtube_search": ""
+              }
+            ],
+            "project": "Créer une application de gestion de données de produits en utilisant MongoDB, Node.js et React pour afficher les données."
+          },
+          {
+            "skill": "Angular",
+            "why": "Angular est un framework JavaScript puissant pour la création d'applications web complexes et scalables.",
+            "resources": [
+              {
+                "type": "cours",
+                "name": "Angular : La formation complète",
+                "platform": "Udemy",
+                "duration": "25 heures",
+                "youtube_search": "Angular tutorial francais debutant 2024"
+              },
+              {
+                "type": "projet",
+                "name": "Créer une application de gestion de tâches en utilisant Angular et Node.js",
+                "platform": "freeCodeCamp",
+                "duration": "15 heures",
+                "youtube_search": ""
+              }
+            ],
+            "project": "Développer une application de gestion de projets en utilisant Angular, Node.js et PostgreSQL pour gérer les données."
+          }
+        ],
+        "certifications": [
+          {
+            "name": "Certification Full Stack Developer",
+            "platform": "Coursera",
+            "relevance": "Cette certification couvre les compétences essentielles pour les développeurs Full Stack, y compris React, Node.js, MongoDB et PostgreSQL."
+          },
+          {
+            "name": "Certification Angular Developer",
+            "platform": "Google",
+            "relevance": "Cette certification démontre les compétences avancées en développement d'applications web avec Angular."
+          }
+        ],
+        "soft_skills": [
+          "Gestion du temps",
+          "Communication efficace",
+          "Résolution de problèmes"
+        ],
+        "timeline": "6 mois",
+        "encouragement": "N'abandonnez pas ! Avec un plan d'amélioration ciblé et une pratique régulière, vous atteindrez votre objectif de devenir un développeur Full Stack compétent en un laps de temps raisonnable. Restez motivé et concentrez-vous sur les compétences clés pour réussir."
+      }
+    },
+    {
+      "name": "Sarah JENKINS",
+      "email": "tallouksaid2001@gmail.com",
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "AWS",
+        "Azure",
+        "Python",
+        "JavaScript",
+        "Node.js",
+        "Bash",
+        "Git",
+        "Jenkins",
+        "Ansible",
+        "Agile"
+      ],
+      "experience": {
+        "years": 2,
+        "domains": [
+          "DevOps",
+          "Cloud",
+          "Infrastructure"
+        ]
+      },
+      "education": [
+        {
+          "degree": "Bachelor of Science",
+          "field": "Computer Science",
+          "school": "University of Westminster"
+        }
+      ],
+      "match": {
+        "matched": [
+          "Node.js",
+          "JavaScript",
+          "Docker",
+          "Git",
+          "Python"
+        ],
+        "missing": [
+          "React",
+          "PostgreSQL",
+          "MongoDB",
+          "REST API",
+          "java",
+          "Angular"
+        ],
+        "bonus": [
+          "Kubernetes",
+          "Terraform",
+          "AWS",
+          "Azure",
+          "Bash",
+          "Jenkins",
+          "Ansible",
+          "Agile"
+        ],
+        "rate": 45.45454545454545
+      },
+      "match_rate": 45.5,
+      "improvement_plan": {
+        "summary": "Le candidat présente un score de compatibilité de 45,5% pour le poste de Full Stack Developer, avec des compétences manquantes clés en React, PostgreSQL, MongoDB et REST API. Pour combler ces lacunes, un plan d'amélioration ciblé est nécessaire.",
+        "priority_skills": [
+          "React",
+          "PostgreSQL",
+          "MongoDB",
+          "REST API"
+        ],
+        "learning_path": [
+          {
+            "skill": "React",
+            "why": "React est essentiel pour le développement d'interfaces utilisateur interactives et réactives dans les applications web modernes.",
+            "resources": [
+              {
+                "type": "cours",
+                "name": "React : Les fondamentaux",
+                "platform": "OpenClassrooms",
+                "duration": "4 semaines",
+                "youtube_search": "React tutorial francais debutant 2024"
+              }
+            ],
+            "project": "Créer une application de liste de tâches en utilisant React pour gérer les interactions utilisateur."
+          },
+          {
+            "skill": "PostgreSQL",
+            "why": "PostgreSQL est une base de données relationnelle puissante et scalable pour stocker et gérer des données structurées.",
+            "resources": [
+              {
+                "type": "cours",
+                "name": "PostgreSQL : Les fondamentaux",
+                "platform": "freeCodeCamp",
+                "duration": "2 semaines",
+                "youtube_search": "PostgreSQL tutorial francais debutant 2024"
+              }
+            ],
+            "project": "Concevoir et implémenter une base de données pour une application de gestion de ventes en utilisant PostgreSQL."
+          },
+          {
+            "skill": "MongoDB",
+            "why": "MongoDB est une base de données NoSQL flexible et scalable pour stocker et gérer des données non structurées.",
+            "resources": [
+              {
+                "type": "cours",
+                "name": "MongoDB : Les fondamentaux",
+                "platform": "Coursera",
+                "duration": "3 semaines",
+                "youtube_search": "MongoDB tutorial francais debutant 2024"
+              }
+            ],
+            "project": "Développer une application de blog en utilisant MongoDB pour stocker les articles et les commentaires."
+          },
+          {
+            "skill": "REST API",
+            "why": "Les API REST sont essentielles pour la communication entre les services et les applications web.",
+            "resources": [
+              {
+                "type": "cours",
+                "name": "REST API : Les fondamentaux",
+                "platform": "Udemy",
+                "duration": "2 semaines",
+                "youtube_search": "REST API tutorial francais debutant 2024"
+              }
+            ],
+            "project": "Créer une API REST pour gérer les utilisateurs et les produits dans une application e-commerce."
+          }
+        ],
+        "certifications": [
+          {
+            "name": "Certification Node.js",
+            "platform": "Coursera",
+            "relevance": "Cette certification est pertinente pour le développement de serveurs et d'applications web avec Node.js."
+          }
+        ],
+        "soft_skills": [
+          "Travail en équipe",
+          "Communication efficace"
+        ],
+        "timeline": "6 mois",
+        "encouragement": "Ne vous découragez pas, avec un plan d'amélioration ciblé et une pratique régulière, vous pouvez atteindre vos objectifs et devenir un Full Stack Developer compétent."
+      }
+    },
+    {
+      "name": "Tariq EL OUALI",
+      "email": "tallouksaid2001@gmail.com",
+      "skills": [
+        "AWS",
+        "Azure",
+        "Infrastructure as Code (IaC)",
+        "microservices orchestration",
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "Python",
+        "Bash",
+        "SQL",
+        "Git",
+        "CI/CD Pipelines"
+      ],
+      "experience": {
+        "years": 7,
+        "domains": [
+          "Cloud Architecture",
+          "Cloud Infrastructure",
+          "DevOps",
+          "Enterprise Systems"
+        ]
+      },
+      "education": [
+        {
+          "degree": "Master of Science",
+          "field": "Distributed Systems",
+          "school": "ENSIAS"
+        }
+      ],
+      "match": {
+        "matched": [
+          "Docker",
+          "Git",
+          "Python"
+        ],
+        "missing": [
+          "React",
+          "Node.js",
+          "JavaScript",
+          "PostgreSQL",
+          "MongoDB",
+          "REST API",
+          "java",
+          "Angular"
+        ],
+        "bonus": [
+          "AWS",
+          "Azure",
+          "Infrastructure as Code (IaC)",
+          "microservices orchestration",
+          "Kubernetes",
+          "Terraform",
+          "Bash",
+          "SQL",
+          "CI/CD Pipelines"
+        ],
+        "rate": 27.27272727272727
+      },
+      "match_rate": 27.3,
+      "improvement_plan": {
+        "summary": "Le candidat présente un écart important dans les compétences de développement Full Stack, notamment en React, Node.js et JavaScript. Pour combler cet écart, il est essentiel de se concentrer sur l'apprentissage de ces technologies clés. Avec 7 ans d'expérience, le candidat possède déjà une solide base en infrastructure et en développement, ce qui facilitera son apprentissage.",
+        "priority_skills": [
+          "React",
+          "Node.js",
+          "JavaScript",
+          "PostgreSQL"
+        ],
+        "learning_path": [
+          {
+            "skill": "React",
+            "why": "React est une bibliothèque JavaScript essentielle pour le développement d'interfaces utilisateur dans les applications Full Stack.",
+            "resources": [
+              {
+                "type": "cours",
+                "name": "React : La formation ultime",
+                "platform": "Udemy",
+                "duration": "10 heures",
+                "youtube_search": "React tutorial francais debutant 2024"
+              },
+              {
+                "type": "projet",
+                "name": "Créer une application ToDo List avec React",
+                "platform": "freeCodeCamp",
+                "duration": "5 heures",
+                "youtube_search": "React projet todo list francais"
+              }
+            ],
+            "project": "Créer une application de gestion de tâches avec React et Node.js"
+          },
+          {
+            "skill": "Node.js",
+            "why": "Node.js est un environnement d'exécution JavaScript côté serveur qui permet de créer des applications scalables et performantes.",
+            "resources": [
+              {
+                "type": "cours",
+                "name": "Node.js : La formation complète",
+                "platform": "OpenClassrooms",
+                "duration": "15 heures",
+                "youtube_search": "Node.js tutorial francais debutant 2024"
+              },
+              {
+                "type": "certification",
+                "name": "Certification Node.js",
+                "platform": "Coursera",
+                "duration": "4 semaines",
+                "youtube_search": "Node.js certification francais"
+              }
+            ],
+            "project": "Créer un serveur de chat en temps réel avec Node.js et Socket.io"
+          },
+          {
+            "skill": "JavaScript",
+            "why": "JavaScript est un langage de programmation essentiel pour le développement web, permettant de créer des interactions dynamiques et des applications riches.",
+            "resources": [
+              {
+                "type": "cours",
+                "name": "JavaScript : La formation ultime",
+                "platform": "Udemy",
+                "duration": "12 heures",
+                "youtube_search": "JavaScript tutorial francais debutant 2024"
+              },
+              {
+                "type": "projet",
+                "name": "Créer un jeu de puzzle avec JavaScript et HTML5",
+                "platform": "freeCodeCamp",
+                "duration": "8 heures",
+                "youtube_search": "JavaScript projet puzzle francais"
+              }
+            ],
+            "project": "Créer un jeu de quiz avec JavaScript et React"
+          },
+          {
+            "skill": "PostgreSQL",
+            "why": "PostgreSQL est un système de gestion de base de données relationnelles qui permet de stocker et de gérer des données de manière efficace.",
+            "resources": [
+              {
+                "type": "cours",
+                "name": "PostgreSQL : La formation complète",
+                "platform": "OpenClassrooms",
+                "duration": "10 heures",
+                "youtube_search": "PostgreSQL tutorial francais debutant 2024"
+              },
+              {
+                "type": "projet",
+                "name": "Créer une base de données pour une application de gestion de stocks avec PostgreSQL",
+                "platform": "freeCodeCamp",
+                "duration": "6 heures",
+                "youtube_search": "PostgreSQL projet gestion de stocks francais"
+              }
+            ],
+            "project": "Créer une application de gestion de commandes avec PostgreSQL et Node.js"
+          }
+        ],
+        "certifications": [
+          {
+            "name": "Certification Node.js",
+            "platform": "Coursera",
+            "relevance": "Cette certification permet de valider les compétences en Node.js et de démontrer une expertise dans le développement d'applications Full Stack."
+          },
+          {
+            "name": "Certification React",
+            "platform": "Udemy",
+            "relevance": "Cette certification permet de valider les compétences en React et de démontrer une expertise dans le développement d'interfaces utilisateur."
+          }
+        ],
+        "soft_skills": [
+          "Travail en équipe",
+          "Communication efficace",
+          "Résolution de problèmes"
+        ],
+        "timeline": "6 mois",
+        "encouragement": "Ne vous découragez pas, avec une bonne planification et une pratique régulière, vous pouvez acquérir les compétences nécessaires pour devenir un développeur Full Stack compétent. Restez motivé et persévérant, et vous atteindrez vos objectifs en un laps de temps raisonnable."
+      }
+    },
+    {
+      "name": "Yassine MANSOURI",
+      "email": "tallouksaid2001@gmail.com",
+      "skills": [
+        "SIEM",
+        "Incident Response",
+        "Vulnerability Assessment",
+        "Penetration Testing",
+        "AWS Security",
+        "Azure Security",
+        "Firewalls",
+        "VPNs",
+        "Network Infrastructure",
+        "Python",
+        "Bash",
+        "Git",
+        "Wireshark",
+        "Nessus",
+        "CEH",
+        "CompTIA Security+"
+      ],
+      "experience": {
+        "years": 5,
+        "domains": [
+          "Cyber Security"
+        ]
+      },
+      "education": [
+        {
+          "degree": "Master’s Degree",
+          "field": "Information Security",
+          "school": "École Nationale des Sciences Appliquées"
+        }
+      ],
+      "match": {
+        "matched": [
+          "Git",
+          "Python"
+        ],
+        "missing": [
+          "React",
+          "Node.js",
+          "JavaScript",
+          "PostgreSQL",
+          "MongoDB",
+          "Docker",
+          "REST API",
+          "java",
+          "Angular"
+        ],
+        "bonus": [
+          "SIEM",
+          "Incident Response",
+          "Vulnerability Assessment",
+          "Penetration Testing",
+          "AWS Security",
+          "Azure Security",
+          "Firewalls",
+          "VPNs",
+          "Network Infrastructure",
+          "Bash",
+          "Wireshark",
+          "Nessus",
+          "CEH",
+          "CompTIA Security+"
+        ],
+        "rate": 18.181818181818183
+      },
+      "match_rate": 18.2,
+      "improvement_plan": {
+        "summary": "Le candidat présente un écart important dans les compétences techniques requises pour le poste de Full Stack Developer, notamment en ce qui concerne les frameworks et les bases de données. Il est nécessaire de se concentrer sur l'acquisition de compétences dans les domaines du développement web et des bases de données. Le candidat doit également adapter ses compétences en sécurité informatique pour les intégrer dans un contexte de développement d'applications.",
+        "priority_skills": [
+          "JavaScript",
+          "React",
+          "Node.js",
+          "PostgreSQL"
+        ],
+        "learning_path": [
+          {
+            "skill": "JavaScript",
+            "why": "Le JavaScript est essentiel pour le développement web, notamment pour la création d'interfaces utilisateur interactives.",
+            "resources": [
+              {
+                "type": "cours",
+                "name": "JavaScript pour les débutants",
+                "platform": "OpenClassrooms",
+                "duration": "4 semaines",
+                "youtube_search": "JavaScript pour les débutants 2024"
+              }
+            ],
+            "project": "Créer un jeu de tic-tac-toe en JavaScript pour pratiquer les concepts de base."
+          },
+          {
+            "skill": "React",
+            "why": "React est un framework populaire pour la création d'interfaces utilisateur, indispensable pour les applications web modernes.",
+            "resources": [
+              {
+                "type": "cours",
+                "name": "React pour les débutants",
+                "platform": "freeCodeCamp",
+                "duration": "6 semaines",
+                "youtube_search": "React pour les débutants 2024"
+              }
+            ],
+            "project": "Développer une application de liste de tâches en utilisant React pour comprendre les composants et les états."
+          },
+          {
+            "skill": "Node.js",
+            "why": "Node.js est un environnement d'exécution de JavaScript côté serveur, crucial pour la création d'API et de serveurs web.",
+            "resources": [
+              {
+                "type": "cours",
+                "name": "Node.js pour les débutants",
+                "platform": "Udemy",
+                "duration": "3 semaines",
+                "youtube_search": "Node.js pour les débutants 2024"
+              }
+            ],
+            "project": "Créer un serveur web simple avec Node.js pour comprendre les requêtes et les réponses HTTP."
+          },
+          {
+            "skill": "PostgreSQL",
+            "why": "PostgreSQL est un système de gestion de base de données relationnelles, essentiel pour stocker et gérer les données des applications web.",
+            "resources": [
+              {
+                "type": "cours",
+                "name": "PostgreSQL pour les débutants",
+                "platform": "Coursera",
+                "duration": "5 semaines",
+                "youtube_search": "PostgreSQL pour les débutants 2024"
+              }
+            ],
+            "project": "Créer une base de données pour une application de blog en utilisant PostgreSQL pour pratiquer les requêtes SQL."
+          }
+        ],
+        "certifications": [
+          {
+            "name": "Certification Node.js",
+            "platform": "OpenJS Foundation",
+            "relevance": "Cette certification démontre les compétences en développement d'applications Node.js, essentielles pour les Full Stack Developers."
+          }
+        ],
+        "soft_skills": [
+          "Travail d'équipe",
+          "Communication efficace"
+        ],
+        "timeline": "6 mois",
+        "encouragement": "N'abandonnez pas ! Avec de la détermination et un plan d'apprentissage structuré, vous pouvez acquérir les compétences nécessaires pour devenir un Full Stack Developer compétent."
+      }
+    }
+  ]
+}

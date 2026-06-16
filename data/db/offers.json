@@ -1,0 +1,27 @@
+{
+  "55ce00a8-7eb6-4127-9209-763fc6dc24f9": {
+    "id": "55ce00a8-7eb6-4127-9209-763fc6dc24f9",
+    "title": "Full Stack Developer",
+    "skills": [
+      "React",
+      "Node.js",
+      "JavaScript",
+      "PostgreSQL",
+      "MongoDB",
+      "Docker",
+      "Git",
+      "REST API",
+      "Python",
+      "java",
+      "Angular"
+    ],
+    "experience": 4,
+    "level": "Senior",
+    "description": "We are looking for a versatile Full Stack Developer to contribute to the design and development of our web applications.\n\nKey Responsibilities:\n• Develop modern, responsive, and accessible user interfaces using React.js and TypeScript, adhering to Figma mockups and UX/UI best practices.\n• Design and implement performant, secure RESTful APIs with Node.js/Express, ensuring full documentation via Swagger/OpenAPI.\n• Model and manage relational databases (PostgreSQL) and NoSQL databases (MongoDB), optimizing queries and data structures for efficiency.\n• Actively participate in Agile/Scrum ceremonies: sprint planning, daily stand-ups, code reviews, and retrospectives.\n• Set up and maintain CI/CD pipelines (GitHub Actions, GitLab CI) to ensure continuous and reliable deployments.\n• Containerize applications with Docker and deploy to AWS cloud infrastructure (EC2, S3, RDS, Lambda).\n• Write unit and integration tests (Jest, Cypress) to ensure code quality and prevent regressions.\n• Contribute to technical architecture discussions and propose innovative solutions to improve scalability and maintainability.\n\nRequired Profile:\nBachelor's or Master's degree (Bac+4/5) in Software Development. Strong command of JavaScript/TypeScript, React, and Node.js. Team-oriented, autonomous, and passionate about delivering high-quality web products.",
+    "text": "Full Stack Developer\nWe are looking for a versatile Full Stack Developer to contribute to the design and development of our web applications.\n\nKey Responsibilities:\n• Develop modern, responsive, and accessible user interfaces using React.js and TypeScript, adhering to Figma mockups and UX/UI best practices.\n• Design and implement performant, secure RESTful APIs with Node.js/Express, ensuring full documentation via Swagger/OpenAPI.\n• Model and manage relational databases (PostgreSQL) and NoSQL databases (MongoDB), optimizing queries and data structures for efficiency.\n• Actively participate in Agile/Scrum ceremonies: sprint planning, daily stand-ups, code reviews, and retrospectives.\n• Set up and maintain CI/CD pipelines (GitHub Actions, GitLab CI) to ensure continuous and reliable deployments.\n• Containerize applications with Docker and deploy to AWS cloud infrastructure (EC2, S3, RDS, Lambda).\n• Write unit and integration tests (Jest, Cypress) to ensure code quality and prevent regressions.\n• Contribute to technical architecture discussions and propose innovative solutions to improve scalability and maintainability.\n\nRequired Profile:\nBachelor's or Master's degree (Bac+4/5) in Software Development. Strong command of JavaScript/TypeScript, React, and Node.js. Team-oriented, autonomous, and passionate about delivering high-quality web products.\nCompétences: React, Node.js, JavaScript, PostgreSQL, MongoDB, Docker, Git, REST API, Python, java, Angular\nExpérience: 4 ans",
+    "source": "form",
+    "published": true,
+    "created_by": "admin",
+    "created_at": "2026-06-03T15:08:52.046961"
+  }
+}

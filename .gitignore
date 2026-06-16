@@ -1,0 +1,14 @@
+# Clé API — ne jamais committer
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.joblib
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Streamlit
+.streamlit/
