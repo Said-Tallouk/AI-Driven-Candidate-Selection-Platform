@@ -12,3 +12,6 @@ frontend/dist/
 
 # Streamlit
 .streamlit/
+
+# Données candidats (CV uploadés) — ne pas publier de données personnelles
+data/db/cvs/
