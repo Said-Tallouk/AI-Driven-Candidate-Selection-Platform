@@ -1,6 +1,21 @@
-# ATS — Skills Matcher Pro
+<div align="center">
 
-An ATS (Applicant Tracking System) that matches CVs against a job offer and suggests training paths to rejected candidates.
+# 🎯 Skills Matcher Pro
+
+**AI-powered ATS that matches CVs against a job offer and guides rejected candidates toward the right training.**
+
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white&labelColor=1a1a2e)](frontend)
+[![FastAPI](https://img.shields.io/badge/FastAPI-2.0-009688?logo=fastapi&logoColor=white&labelColor=1a1a2e)](backend)
+[![Groq](https://img.shields.io/badge/Groq-Llama_3.3_70B-F55036?logo=groq&logoColor=white&labelColor=1a1a2e)](utils/llm_extractor.py)
+[![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white&labelColor=1a1a2e)](frontend/vite.config.js)
+[![Deployed on Vercel](https://img.shields.io/badge/Frontend-Vercel-000000?logo=vercel&logoColor=white&labelColor=1a1a2e)](https://ai-driven-candidate-selection-platf.vercel.app)
+[![Deployed on Railway](https://img.shields.io/badge/Backend-Railway-0B0D0E?logo=railway&logoColor=white&labelColor=1a1a2e)](https://skills-matcher-pro-api-production.up.railway.app)
+
+**[🚀 Live Demo](https://ai-driven-candidate-selection-platf.vercel.app)** · **[📄 API Docs](https://skills-matcher-pro-api-production.up.railway.app/docs)** · **[🏛️ Architecture](#architecture)**
+
+<img src="images/home.png" width="100%" alt="Skills Matcher Pro — candidate portal home page">
+
+</div>
 
 ## Screenshots
 
