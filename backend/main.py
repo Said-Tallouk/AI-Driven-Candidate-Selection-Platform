@@ -62,9 +62,16 @@ def _extract_pdf_text(content: bytes) -> str:
 
 app = FastAPI(title="Skills Matcher Pro API", version="2.0")
 
+_default_origins = "http://localhost:5173,http://localhost:3000"
+_allowed_origins = [
+    origin.strip()
+    for origin in os.getenv("ALLOWED_ORIGINS", _default_origins).split(",")
+    if origin.strip()
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],
+    allow_origins=_allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

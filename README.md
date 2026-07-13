@@ -2,6 +2,67 @@
 
 An ATS (Applicant Tracking System) that matches CVs against a job offer and suggests training paths to rejected candidates.
 
+## Screenshots
+
+<table>
+<tr>
+<td width="50%">
+
+**Candidate portal — Home**
+<img src="images/home.png" width="100%" alt="Candidate portal home page">
+
+</td>
+<td width="50%">
+
+**Candidate portal — Job offers**
+<img src="images/job-offers.png" width="100%" alt="Published job offers list">
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**HR space — Login**
+<img src="images/hr-login.png" width="100%" alt="HR login page">
+
+</td>
+<td width="50%">
+
+**HR space — Dashboard**
+<img src="images/hr-dashboard.png" width="100%" alt="HR dashboard with KPIs and acceptance rate">
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**AI analysis — Results overview**
+<img src="images/results-overview.png" width="100%" alt="Analysis results with compatibility scores chart">
+
+</td>
+<td width="50%">
+
+**AI analysis — Candidates list**
+<img src="images/results-candidates-list.png" width="100%" alt="Accepted and rejected candidates list">
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**AI analysis — Candidate detail**
+<img src="images/candidate-detail.png" width="100%" alt="Candidate detail with matched, missing and bonus skills">
+
+</td>
+<td width="50%">
+
+**Communication — Send email**
+<img src="images/send-email-modal.png" width="100%" alt="Send email modal with templates">
+
+</td>
+</tr>
+</table>
+
 ## Architecture
 
 Three-tier application: a **React SPA (frontend)**, a **FastAPI REST API (backend)**, and a shared **utils/** folder that encapsulates PDF extraction, AI (Groq), and email sending. Persistence is done with plain JSON files (no database).
@@ -24,21 +85,41 @@ Three-tier application: a **React SPA (frontend)**, a **FastAPI REST API (backen
 Single entry point, no database: all state is loaded into memory at startup from `data/db/*.json` and written back to disk on every mutation (`_persist()` function).
 
 - **Auth** — `POST /api/auth/login` / `POST /api/auth/logout`. Hard-coded credentials in `_USERS` (`admin`/`rh2024`, `rh`/`password123`), opaque token (`uuid4`) stored in `_TOKENS` (in-memory, lost on restart). All HR routes require an `Authorization: Bearer <token>` header (`_require_auth` dependency).
+
+  <img src="images/hr-login.png" width="420" alt="HR login page">
+
 - **Job offers (HR)** — CRUD on `/api/offers` (manual creation or PDF upload via `/api/offers/upload-pdf`), publishing via `PATCH /api/offers/{id}/publish`.
 - **Public candidate portal** — `/api/public/offers` (list of published offers, without the `text` field) and `/api/public/offers/{id}/apply` (application submission: name, email, PDF stored at `data/db/cvs/{uuid}.pdf`).
+
+  <img src="images/job-offers.png" width="420" alt="Published job offers list">
+
 - **Applications (HR)** — listing and downloading CVs (`/api/offers/{id}/applications`, `.../cv`).
 - **AI analysis** — `POST /api/offers/{id}/analyze-applications` (all applications) or `.../applications/{app_id}/analyze` (a single one): extracts the CV profile via Groq, computes the match rate against the offer's required skills (`compare_skills`), and generates an improvement plan if `match_rate < 60`. `POST /api/analysis/{id}` also allows an ad-hoc analysis via direct PDF upload (without going through an application).
+
+  <img src="images/results-overview.png" width="420" alt="Analysis results overview"> <img src="images/candidate-detail.png" width="420" alt="Candidate detail with skill matching">
+
 - **Communication** — `POST /api/communication/send` (single email) and `.../send-bulk` (bulk email by category: accepted/rejected/all), HTML templates in `utils/email_sender.py`, history stored per candidate.
+
+  <img src="images/send-email-modal.png" width="420" alt="Send email modal"> <img src="images/email-notification.png" width="420" alt="Email received by the candidate">
+
 - **Dashboard** — `GET /api/dashboard` aggregates global stats (offers, applications, average rate, top candidates).
 
-CORS restricted to `http://localhost:5173` and `:3000`.
+  <img src="images/hr-dashboard.png" width="420" alt="HR dashboard with KPIs">
+
+CORS origins are configurable via the `ALLOWED_ORIGINS` env var (comma-separated list), defaulting to `http://localhost:5173,http://localhost:3000` for local development.
 
 ### frontend/ — React + Vite SPA
 
 - **Routing** (`App.jsx`, `react-router-dom`): `Login`, `Dashboard`, `CreateOffer`, `UploadCVs`, `Applications`, `Results`, `PublicOffers` (unauthenticated candidate portal), `Apply` (public application form).
+
+  <img src="images/home.png" width="420" alt="Candidate portal home page">
+
 - **Auth state** — `context/AuthContext.jsx` holds the token and exposes it to API calls.
 - **API client** — `api/client.js` (axios instance + token interceptor), `api/parseError.js` (FastAPI error normalization).
 - **Components** — `Sidebar`, `KpiCard`, `DonutChart` (recharts), `SkillPill`, `ImprovementPlan`, `CommunicationModal`.
+
+  <img src="images/results-candidates-list.png" width="420" alt="Accepted and rejected candidates list">
+
 - **Styling** — Tailwind CSS (`tailwind.config.js`, `index.css`).
 
 ### utils/ — shared business logic
@@ -113,6 +194,30 @@ npm run dev
 | `rh` | `password123` |
 
 The candidate portal (`/PublicOffers` then `/Apply`) requires no authentication — only published offers (`published: true`) are visible there.
+
+## Deployment
+
+The frontend (static React SPA) and backend (stateful FastAPI server) are deployed separately — Vercel only runs serverless functions and cannot host the backend as-is (it keeps auth tokens in memory and persists data to local JSON files/disk).
+
+### Backend — Render
+
+1. Push this repo to GitHub, then on [Render](https://dashboard.render.com), **New → Blueprint**, and point it at the repo — it picks up [`render.yaml`](render.yaml) automatically (build: `pip install -r backend/requirements_api.txt`, start: `uvicorn backend.main:app --host 0.0.0.0 --port $PORT`).
+2. Set the environment variables in the Render dashboard (left as `sync: false` in the blueprint, so they must be entered manually): `GROQ_API_KEY`, `SMTP_EMAIL`, `SMTP_PASSWORD`, and `ALLOWED_ORIGINS` (set it once you know the Vercel URL, e.g. `https://your-app.vercel.app`).
+3. Note the resulting API URL, e.g. `https://skills-matcher-pro-api.onrender.com`.
+
+> **Persistence caveat**: Render's **free** plan has an ephemeral filesystem — `data/db/*.json` and uploaded CVs are wiped on every restart/redeploy. For real persistence, upgrade the service to a paid instance type and add a disk in `render.yaml`:
+> ```yaml
+>     disk:
+>       name: data
+>       mountPath: /opt/render/project/src/data/db
+>       sizeGB: 1
+> ```
+
+### Frontend — Vercel
+
+1. On [Vercel](https://vercel.com/new), import the same GitHub repo and set **Root Directory** to `frontend` (Vercel auto-detects the Vite framework preset; [`frontend/vercel.json`](frontend/vercel.json) adds the SPA rewrite needed for client-side routes like `/dashboard` or `/apply/:id` to work on direct load/refresh).
+2. Add an environment variable `VITE_API_URL` = `https://<your-render-service>.onrender.com/api` (see [`frontend/.env.example`](frontend/.env.example)).
+3. Deploy. Then go back to Render and set `ALLOWED_ORIGINS` to the resulting Vercel URL so the backend's CORS accepts it.
 
 ### Troubleshooting
 

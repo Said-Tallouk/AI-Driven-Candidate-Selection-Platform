@@ -419,7 +419,19 @@
         ],
         "rate": 63.63636363636363
       },
-      "match_rate": 63.6
+      "match_rate": 63.6,
+      "communications": [
+        {
+          "template": "interview",
+          "sent_at": "2026-07-13T21:13:13.227494",
+          "to": "tallouksaid2001@gmail.com"
+        },
+        {
+          "template": "rejection",
+          "sent_at": "2026-07-13T21:21:10.474821",
+          "to": "tallouksaid2001@gmail.com"
+        }
+      ]
     },
     {
       "name": "Omar TAZI",

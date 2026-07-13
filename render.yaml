@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: skills-matcher-pro-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r backend/requirements_api.txt
+    startCommand: uvicorn backend.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: SMTP_EMAIL
+        sync: false
+      - key: SMTP_PASSWORD
+        sync: false
+      - key: ALLOWED_ORIGINS
+        sync: false
